@@ -37,4 +37,22 @@ class Movie {
 
         return $this;
     }
+
+   /*  creo le funzionu get  */
+    
+    public function getTitle() {
+        return $this->title;
+    }
+    
+    public function getLenguage() {
+        return $this->lenguage;
+    }
+    
+    public function getDirector() {
+        return $this->director;
+    }
+    
+    public function getRelease() {
+        return $this->releasedate;
+    }
 }
